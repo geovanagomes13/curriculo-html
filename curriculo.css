@@ -1,0 +1,345 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(
+    154deg,
+    #FAF3E0 50%,
+    #E8D8C3 50%);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Oswald", sans-serif;;
+}
+
+.container{
+  background-color: aliceblue;
+  height: 60vw;
+  width: 60vw;
+  margin-top: 80px;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  box-shadow: 2px 2px 30px black;
+  margin-bottom: 300px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+/*--------------------------------------------cabeçalho--------------------------------------*/
+
+.header{
+  background-color: #7E5E3B;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.header .name{
+  text-align: center;
+  margin-left: 450px;
+  font-size: 27px;
+}
+
+.header .frase{
+   text-align: center;
+   margin-left: 450px;
+   font-size: 27px;
+}
+
+/*------------------------------------------------------lateral--------------------------------*/
+.main{
+  background-color: tan;
+  position: absolute;   
+  min-height: 1095px;
+  width: 400px;
+  margin-left: 60px;
+  margin-top: -194px;
+  border-top-right-radius: 900px;
+  border-top-left-radius: 900px;
+  border-bottom-left-radius: 110px;
+  border-bottom-right-radius: 110px;
+}
+
+/*---------------------------------------------- imagem ------------------------------*/
+
+.foto img{
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+/*------------------------------------------------contatos-----------------------------------*/
+.contactg{
+  margin-top: 35px;
+  height: 300px;
+}
+
+.contato{
+  font-size: 20px;
+  width: 400px;
+  display: flex;
+  justify-content: end;
+}
+
+.contato nav{
+  width: 365px;
+  border-bottom: 2px white solid;
+}
+
+.numero p{
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 20px;
+
+}
+
+.email p{
+  margin-top: 30px;
+  margin-left: 15px;
+   font-size: 20px;
+}
+
+.cidade p{
+  margin-top: 30px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+/*--------------------------------------------------sobre mim--------------------------*/
+
+.sobremim{
+  margin-left: 550px;
+  margin-top: 70px;
+  margin-right: 50px;
+  background-color: #E8D8C3 ;
+  height: 300px
+}
+
+.sb{
+  padding-left: 45px;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.sobremim nav{
+  width: 365px;
+  border-bottom: 2px white solid;
+}
+
+.sobremim p{
+  padding-top: 22px;
+  font-size: 24px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sobremim{
+  border-radius: 20px;
+}
+
+.sobremim{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+
+.sobremim:hover{
+    transform: scale(1.05);
+}
+
+/*--------------------------------------idiomas---------------------------*/
+.idiomas{
+   height: 350px;
+   padding-left: 40px;
+}
+
+.idioma nav{
+  font-size: 20px;
+  width: 365px;
+  border-bottom: 2px white solid;
+}
+
+.ingles{
+  background-color: bisque;
+  width: 270px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 20px; 
+  border-radius: 20px;
+}
+
+.ingles nav{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.verso{
+    display: none;
+}
+
+.ingles:hover .frente{
+    display: none;
+}
+
+.ingles:hover .verso{
+    display: block;
+}
+
+
+.espanhol{
+ background-color: bisque;
+  width: 270px;
+  height: 60px;
+  margin-top: 35px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.espanhol nav{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.verso{
+    display: none;
+}
+
+.espanhol:hover .frente{
+    display: none;
+}
+
+.espanhol:hover .verso{
+    display: block;
+}
+
+
+.portugues{
+   background-color: bisque;
+  width: 270px;
+  height: 60px;
+  margin-top: 35px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.portugues nav{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.verso{
+    display: none;
+}
+
+.portugues:hover .frente{
+    display: none;
+}
+
+.portugues:hover .verso{
+    display: block;
+}
+
+/*---------------------------------------------linguagens-----------------------------------*/
+
+.linguagens{
+  background-color: #E8D8C3;
+  margin-left: 550px;
+  width: 550px;
+  margin-top: 95px;
+  display: flex;
+  gap: 20px;
+  height: 400px;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.lingua nav{
+  font-size: 20px;
+  padding-left: 50px;
+  margin-top: 28px;
+   
+}
+
+.linguagens nav{
+  width: 380px;
+  border-bottom: 2px white solid;
+}
+
+.linguagens{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+
+.linguagens:hover{
+    transform: scale(1.05);
+}
+
+.todasLinguagens{
+    display: flex;
+    gap: 50px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.html img{
+  width: 120px;
+  height: 100px;
+  background-color: #7E5E3B ;
+  margin-top: 0;
+ 
+}
+
+.html img:hover{
+   width: 130px;
+  height: 110px;
+}
+
+.html{
+  font-size: 20px;
+}
+
+.css img{
+   width: 120px;
+  height: 100px;
+  background-color: white;
+   margin-top: 0;
+   
+}
+.css img:hover{
+  width: 130px;
+  height: 110px;
+
+}
+
+.css{
+  font-size: 20px;
+}
+
+.js img{
+   width: 120px;
+  height: 100px;
+  background-color: #7E5E3B ;
+ margin-top: 0;
+}
+.js img:hover{
+    width: 130px;
+    height: 110px;
+}
+
+.js{
+  font-size: 20px;
+  
+}
+
+
+
